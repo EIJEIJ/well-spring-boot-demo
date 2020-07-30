@@ -1,0 +1,27 @@
+package ${PackageName};
+
+
+import ${CommonServicePackageName};
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import static org.junit.Assert.*;
+
+/**
+ * 系统生成Service测试类
+ * @author admin
+ * @date ${Date}
+ */
+public class ${SimpleName}ServiceTest  {
+
+    @Autowired
+    private ${SimpleName}Service ${LowerCaseSimpleName}Service;
+
+    private static final String KEY = "TEST";
+    
+    @Test
+    public void testCrud() {
+
+    }
+
+}

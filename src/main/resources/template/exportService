@@ -1,0 +1,25 @@
+package ${PackageName};
+
+import ${DaoClassName};
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+/**
+ * 系统生成导出类
+ * @author admin
+ * @date ${Date}
+ */
+@Service
+public class Export${SimpleName} {
+
+    private static final String TEMPLATE = "${TableName}.xml";
+    private static final String STORE_NAME = "${TableName}";
+
+    @Autowired
+    private ${SimpleName}Dao ${LowerCaseSimpleName}Dao;
+
+
+
+}
